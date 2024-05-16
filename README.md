@@ -25,16 +25,27 @@ Logic Gates:
 ## VERILOG CODE
 
 module logicgate (a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
+
 input a,b;  
+
 output andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate;
+
 and(andgate,a,b);
+
 or(orgate,a,b);
+
 xor(xorgate,a,b);
+
 nand(nandgate,a,b); 
+
 nor(norgate,a,b);
+
 xnor(xnorgate,a,b);
+
 not(notgate,a);
+
 endmodule
+
 ## OUTPUT:
 ![image](https://github.com/vandana9676/VLSI-LAB-EXP-1/assets/165563035/f5d70de4-a23d-4af5-8d22-682d0e06472c)
 
